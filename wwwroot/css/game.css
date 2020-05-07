@@ -1,0 +1,55 @@
+﻿/* GameBoard  external css*/
+
+.container{
+    
+    max-width:100%;
+    height:auto;
+    background: red;
+    padding:0%;
+    margin:0%;
+    font-family:'Segoe UI';
+    font-size:16px;
+    font-weight:normal;    
+    
+}
+.container a {
+    color: aquamarine;
+}
+
+.container h1{
+    font-weight:700;
+    margin:0;
+}
+
+.container .position-fixed{
+    position:fixed;
+    top:50%;
+}
+
+    /*Form settings */
+.container .form{
+    margin:10%;
+    padding:10%;
+    background: blue;
+    position:relative;
+}
+.form .form-group {
+    float:left;
+    width:25%;
+    
+   
+    background: yellow;
+    height: auto;
+}
+
+    .form-group #start {
+        left: 100px;
+        
+    }
+.form-inline label{
+    display:block;
+    font-size:14px;
+}
+
+
+ 

@@ -1,0 +1,30 @@
+﻿@using MyFirstMVC.Models
+@model MyFirstMVC.Models.PlayerModel
+@{
+    ViewData["Title"] = "Enter Player Data";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Enter Player Data</title>
+</head>
+<body>
+    <p>blah blah blah</p>
+    <form method="post" enctype="multipart/form-data" asp-action="EnterPlayerData">
+        <div class="form-group">
+            <label>Name: </label>
+            <input type="text" name="name">
+        </div>
+        <div class="form-group">
+            <label>Email: </label>
+            <input type="text" name="email">
+        </div>
+        <input class="button" type="submit" value="submit" >
+    </form>
+
+
+</body>
+</html>

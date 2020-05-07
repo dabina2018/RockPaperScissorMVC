@@ -1,0 +1,66 @@
+﻿@{
+    ViewData["Title"] = "Game Board";
+}
+@{ 
+    Layout = null;
+}
+   
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width" />
+        <title>GameBoard</title>
+        <link typ e="text/css" rel="stylesheet" href="~/css/game.css" />
+
+    </head>
+    <body>
+        <div class="container">
+            <!--create container for Player 1 choices-->
+            <h1>Rock Paper Scissors</h1>
+            
+            <form class="form">
+                <div id="start">Start Game</div>
+
+                <div class="form-group">
+                    <div >
+                        <input type="button" name="playerChoice" value="Rock">
+                    </div>
+                    <div class="btn-block">
+                        <input type="button" name="playerChoice" value="Paper">
+                    </div>
+                    <div class="btn-block">
+                        <input type="button" name="playerChoice" value="Scissor">
+                    </div>
+                </div>
+
+
+                <div class="form-group">
+                    <div class="carousel"><img src="~/images/question.jpg" width="100" /></div>
+                </div>
+
+                <div class="form-group">
+                    <div class="label">
+                        <label>Win / Lose</label>
+                    </div>
+                </div>
+                
+
+                <div class="form-group">
+                    <div class="carousel"><img src="~/images/question.jpg" width="100" /></div>
+                </div>
+            </form>
+           
+            
+            <a class="position-fixed" href="About">About</a>
+            <a href="EnterPlayerData">Enter Player Data</a>
+            <button type="button" onclick="location.href='@Url.Action("EnterPlayerData", "PlayerModel")'">Add Player</button>
+        </div>
+    </body>
+    
+
+
+
+
+
+</html>

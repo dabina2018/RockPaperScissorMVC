@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Users\\da.kupa\\Documents\\code\\MyFirstMVC\\MyFirstMVC.csproj": {}
+    "C:\\Users\\dabina2018\\Documents\\code\\RockPaperScissorMVC\\MyFirstMVC.csproj": {}
   },
   "projects": {
-    "D:\\Users\\da.kupa\\Documents\\code\\MyFirstMVC\\MyFirstMVC.csproj": {
+    "C:\\Users\\dabina2018\\Documents\\code\\RockPaperScissorMVC\\MyFirstMVC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Users\\da.kupa\\Documents\\code\\MyFirstMVC\\MyFirstMVC.csproj",
+        "projectUniqueName": "C:\\Users\\dabina2018\\Documents\\code\\RockPaperScissorMVC\\MyFirstMVC.csproj",
         "projectName": "MyFirstMVC",
-        "projectPath": "D:\\Users\\da.kupa\\Documents\\code\\MyFirstMVC\\MyFirstMVC.csproj",
-        "packagesPath": "D:\\Users\\da.kupa\\.nuget\\packages\\",
-        "outputPath": "D:\\Users\\da.kupa\\Documents\\code\\MyFirstMVC\\obj\\",
+        "projectPath": "C:\\Users\\dabina2018\\Documents\\code\\RockPaperScissorMVC\\MyFirstMVC.csproj",
+        "packagesPath": "C:\\Users\\dabina2018\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\dabina2018\\Documents\\code\\RockPaperScissorMVC\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "D:\\Users\\da.kupa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\dabina2018\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
